@@ -1,0 +1,41 @@
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border-color: #444;
+}
+
+body.dark-mode .table {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  color: #fff !important;
+  background-color: #007bff;
+  padding: 6px 12px;
+  border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+### Steps to Run the Project:
+
+1. **Extract the ZIP file** (if not already done).
+2. **Open Visual Studio Code**.
+3. Navigate to the folder containing the extracted files (the folder should be named `account-app`).
+4. Open the terminal inside VS Code, ensuring the terminal’s path ends with `account-app`.
+5. Install the required dependencies by running the `npm install` command.
+6. After installation, start the application by running the `npm run start` command. The app will open in your default browser.
+
+### Running the Mock API (json-server):
+
+1. **Ensure Node.js is installed**. If not, download it from the official Node.js website.
+2. Run the mock API by executing the appropriate command to start `json-server` and watch the `db.json` file on port 5000.
+3. If you get an error that the command is not recognized, install `json-server` globally and then run the command again.
+4. Make sure the `db.json` file is inside the project folder, or specify its correct path.
+
+### Testing:
+
+1. After setting everything up, run the tests using the `npm test` command.
+2. The tests should pass successfully if the setup is correct.
+3. If the user fails to fetch data, the app will display five dummy products and show an error message saying "Failed to fetch data."
+
+Let me know if you need further clarification!
+My WhatsApp Nu : +201552279296
